@@ -43,16 +43,17 @@ grep -n 'data-todo' index.html
 
 - [x] 이름 로마자 표기 (Sanghyeok Park), 직함 (Undergraduate Student), 연구실 (CLink Lab)
 - [x] 소속 (Pusan National University · School of Computer Science and Engineering · Artificial Intelligence Major)
-- [ ] 입학 연도 (`20XX` 로 검색)
+- [x] 입학 연도 (2023)
 - [ ] About 두 문단
 - [ ] 학력 상세 (GPA, 복수전공 등 — 선택)
 - [ ] 연구 관심 주제 3개
 - [ ] 논문 목록 + paper/arXiv/code 링크
-- [ ] 경력
+- [ ] CLink Lab 합류 시점 (`20XX.XX` 로 검색) + 경력 내용
 - [ ] 수상, 학회 봉사, 스킬
 - [x] 이메일 (메인 parksh03@pusan.ac.kr / 서브 tnlfl8888@gmail.com)
 - [x] GitHub (연구 parksh03 / 개인 프로젝트 parksh23)
-- [ ] Google Scholar / LinkedIn URL
+- [x] LinkedIn URL
+- [ ] Google Scholar URL (`data-todo` 2곳)
 - [ ] `assets/cv.pdf`
 - [ ] `assets/profile.jpg` — 넣기 전까지는 "사진" 자리표시 원이 보입니다
 
