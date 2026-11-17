@@ -50,6 +50,8 @@ grep -n 'data-todo' index.html
 - [ ] 논문 목록 + paper/arXiv/code 링크
 - [ ] 경력
 - [ ] 수상, 학회 봉사, 스킬
+- [ ] 학교 이메일 (`학교이메일@학교.ac.kr` 로 검색 — 2곳)
+- [ ] 연구용 GitHub 계정 (`github.com/계정명` 으로 검색 — 2곳)
 - [ ] Google Scholar / LinkedIn URL
 - [ ] `assets/cv.pdf`
 - [ ] `assets/profile.jpg` — 넣기 전까지는 "사진" 자리표시 원이 보입니다

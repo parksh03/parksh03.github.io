@@ -136,11 +136,22 @@ main {
 .hero__affil { margin: 0; color: var(--text-soft); font-size: .95rem; }
 
 .hero__meta {
-  display: flex; flex-wrap: wrap; gap: .4rem 1.1rem;
+  display: flex; flex-direction: column; gap: .3rem;
   margin: 1.1rem 0 0; padding: 0; list-style: none;
-  font-size: .9rem;
+  font-size: .88rem;
   font-family: var(--mono);
 }
+.hero__meta li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .1rem .5rem; }
+
+/* fixed-width label keeps the value column aligned down the stack */
+.hero__meta-k {
+  flex: 0 0 3.6rem;
+  font-size: .72rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+.hero__meta-s { color: var(--rule); }
 
 .hero__photo {
   flex: 0 0 auto;
@@ -266,13 +277,27 @@ section > p:first-of-type { margin-top: 0; }
 .skills dd { margin: 0; font-size: .93rem; color: var(--text-soft); }
 
 .contact { margin: 0; padding: 0; list-style: none; }
-.contact li { display: flex; gap: .75rem; margin-bottom: .45rem; font-size: .95rem; color: var(--text-soft); }
+.contact li {
+  display: flex; align-items: flex-start; gap: .75rem;
+  margin-bottom: .6rem;
+  font-size: .95rem; color: var(--text-soft);
+}
 .contact__k {
   flex: 0 0 5.5rem;
   font-family: var(--mono); font-size: .8rem;
   color: var(--text-dim); text-transform: uppercase; letter-spacing: .05em;
   padding-top: .2rem;
 }
+/* value column: may hold two stacked addresses separated by <br> */
+.contact__v { min-width: 0; line-height: 1.75; }
+/* dim qualifier after an address — "기본", "연구 코드", … */
+.contact__v em {
+  font-style: normal;
+  font-size: .78rem;
+  font-family: var(--mono);
+  color: var(--text-dim);
+}
+.contact__v em::before { content: "— "; }
 
 /* ───────────────────────── footer ───────────────────────── */
 .footer {
