@@ -41,15 +41,18 @@ git push
 grep -n 'data-todo' index.html
 ```
 
-- [ ] 이름 로마자 표기, 직함, 소속
+- [x] 이름 로마자 표기 (Sanghyeok Park), 직함 (Undergraduate Student), 연구실 (CLink Lab)
+- [ ] 소속 대학 / 학과 (`대학교 이름`, `학과`, `전공` 으로 검색)
+- [ ] 입학 연도 (`20XX` 로 검색)
 - [ ] About 두 문단
-- [ ] 학력 (연도 / 학위 / 학교 / 지도교수)
+- [ ] 학력 상세 (전공명, GPA 등)
 - [ ] 연구 관심 주제 3개
 - [ ] 논문 목록 + paper/arXiv/code 링크
 - [ ] 경력
 - [ ] 수상, 학회 봉사, 스킬
 - [ ] Google Scholar / LinkedIn URL
-- [ ] `assets/profile.jpg`, `assets/cv.pdf`
+- [ ] `assets/cv.pdf`
+- [ ] `assets/profile.jpg` — 넣기 전까지는 "사진" 자리표시 원이 보입니다
 
 ## PDF로 뽑기
 
