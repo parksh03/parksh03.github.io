@@ -48,7 +48,8 @@ grep -n 'data-todo' index.html
 - [ ] 학력 상세 (GPA, 복수전공 등 — 선택)
 - [ ] 연구 관심 주제 3개
 - [ ] 논문 목록 + paper/arXiv/code 링크
-- [ ] CLink Lab 합류 시점 (`20XX.XX` 로 검색) + 경력 내용
+- [x] CLink Lab 합류 시점 (2025.11)
+- [ ] 경력 내용 (bullets 채우기)
 - [ ] 수상, 학회 봉사, 스킬
 - [x] 이메일 (메인 parksh03@pusan.ac.kr / 서브 tnlfl8888@gmail.com)
 - [x] GitHub (연구 parksh03 / 개인 프로젝트 parksh23)
