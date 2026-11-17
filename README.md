@@ -42,10 +42,10 @@ grep -n 'data-todo' index.html
 ```
 
 - [x] 이름 로마자 표기 (Sanghyeok Park), 직함 (Undergraduate Student), 연구실 (CLink Lab)
-- [ ] 소속 대학 / 학과 (`대학교 이름`, `학과`, `전공` 으로 검색)
+- [x] 소속 (Pusan National University · School of Computer Science and Engineering · Artificial Intelligence Major)
 - [ ] 입학 연도 (`20XX` 로 검색)
 - [ ] About 두 문단
-- [ ] 학력 상세 (전공명, GPA 등)
+- [ ] 학력 상세 (GPA, 복수전공 등 — 선택)
 - [ ] 연구 관심 주제 3개
 - [ ] 논문 목록 + paper/arXiv/code 링크
 - [ ] 경력
