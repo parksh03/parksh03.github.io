@@ -47,7 +47,7 @@ grep -n 'data-todo' index.html
 - [ ] About 두 문단
 - [ ] 학력 상세 (GPA, 복수전공 등 — 선택)
 - [ ] 연구 관심 주제 3개
-- [ ] 논문 목록 + paper/arXiv/code 링크
+- [ ] 논문 목록 — International / Preprints / Domestic(KCI) 세 그룹
 - [x] CLink Lab 합류 시점 (2025.11)
 - [ ] 경력 내용 (bullets 채우기)
 - [ ] 수상, 학회 봉사, 스킬

@@ -253,6 +253,28 @@ section > p:first-of-type { margin-top: 0; }
 .pub__links a:hover { border-color: var(--accent); }
 .pub__links a[data-todo]::after { content: ""; }
 
+/* 국내 학술지: 같은 마크업을 쓰면서 한 칸을 작게 잡아 비중을 구분한다 */
+.pubs--compact { padding-left: 1.3rem; }
+.pubs--compact > li { margin-bottom: .9rem; }
+.pubs--compact > li::marker { font-size: .78rem; }
+.pubs--compact .pub__title   { font-size: .92rem; margin-bottom: .08rem; }
+.pubs--compact .pub__authors { font-size: .82rem; }
+.pubs--compact .pub__venue   { font-size: .8rem; }
+.pubs--compact .pub__links   { margin-top: .3rem; }
+.pubs--compact .pub__links a { font-size: .72rem; padding: .05rem .4rem; }
+
+/* 그룹 제목: 섹션 첫 제목은 h2 바로 아래라 위 여백을 줄인다 */
+.sub--first { margin-top: .75rem; }
+/* 영문 제목 뒤에 붙는 한글 보조 설명 */
+.sub__ko {
+  margin-left: .45rem;
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--text-dim);
+}
+
 /* ───────────────────────── two column block ───────────────────────── */
 .two-col {
   display: grid;
